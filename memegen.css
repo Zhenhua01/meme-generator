@@ -1,0 +1,52 @@
+body {
+    margin: 50px 175px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: lightgray;
+    font-size: x-large;
+}
+
+img {
+    width: 65%;
+    height: auto;
+    aspect-ratio: 4/3;
+  }
+
+.meme {
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+}
+
+.toptext {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font: bold;
+    font-family: Impact;
+    color: white;
+    text-shadow: 3px 3px 1px black;
+}
+
+.bottomtext {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font: bold;
+    font-family: Impact;
+    color: white;
+    text-shadow: 3px 3px 1px black;
+}
+
+label{
+    float:left;
+}
+
+input {
+    width: 70%;
+    float: right;
+}
