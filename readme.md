@@ -1,1 +1,1 @@
-My Meme Generator
+Meme Generator
